@@ -6,6 +6,7 @@ public class Vakt {
         boolean isFull = false;
 
         boolean allowed = false;
+        // if sats for att kolla vilkor
 
         if (id && !isFull) {
             if (dayOfTheWeek.equalsIgnoreCase("lördag") || dayOfTheWeek.equalsIgnoreCase("söndag")) {
